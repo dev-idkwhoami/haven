@@ -1,0 +1,50 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+build/haven-server.exe
+client/build/
+
+# Go
+*.test
+*.out
+
+# Frontend
+client/frontend/node_modules/
+client/frontend/dist/
+client/frontend/package.json.md5
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+*.env
+*.pem
+*.key
+*.toml
+
+# SQLite databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Agent
+.claude
+
